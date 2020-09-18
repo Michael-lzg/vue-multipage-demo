@@ -22,6 +22,13 @@ function getPages () {
 module.exports = {
   publicPath: './',
   pages: getPages(),
+  css: {
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true
+      }
+    }
+  },
   chainWebpack: config => {
     // 打包文件带hash
     config.output.filename('[name].[hash].js').end()
