@@ -1,12 +1,5 @@
 <template>
   <div class="mainPage">
-    <!-- <div class="top">
-      <div class="nav">
-        <span>首页</span>
-        <span>业务中心</span>
-        <span>案例分析</span>
-      </div>
-    </div> -->
     <div class="main">
       <img src="../../../../assets/image/banner.jpg" alt="" width="100%" />
     </div>
@@ -39,28 +32,13 @@ Vue.use(Icon)
 export default {
   data () {
     return {
-      name: 'admin',
-      password: 'aaa123',
-      tsName: '',
-      tsPassword: ''
+      name: '',
+      password: ''
     }
   },
   methods: {
     toLogin () {
-      // var a1 = this.util.isUser(this.name)
-      // var a2 = this.util.isPassword(this.password)
-      // if (a1 !== 1) {
-      //   this.tsName = a1
-      //   return
-      // }
-      // if (a2 !== 1) {
-      //   this.tsPassword = a2
-      //   return
-      // }
-      // this.$router.push({
-      //   path: '/admin'
-      // })
-      // sessionStorage.setItem('isLogin', true)
+      window.location.href = '/home.html#/home'
     }
   }
 }

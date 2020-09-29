@@ -12,7 +12,8 @@
     "babel-plugin-import": "^1.13.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.3"
+    "vue-router": "^3.4.3",
+    "webpack-bundle-analyzer": "^3.9.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
