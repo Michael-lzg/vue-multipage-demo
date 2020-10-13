@@ -6,13 +6,11 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/home',
-    name: 'home',
     component: () => import('../views/index/index.vue'),
     meta: { title: '首页', keepAlive: false }
   },
   {
     path: '/other',
-    name: 'home',
     component: () => import('../views/other/index.vue'),
     meta: { title: '其他', keepAlive: false }
   }

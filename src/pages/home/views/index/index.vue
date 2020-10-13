@@ -1,14 +1,11 @@
 <template>
   <div>
-    index
+    1111111
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

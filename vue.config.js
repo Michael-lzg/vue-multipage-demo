@@ -14,18 +14,18 @@ function getPages () {
       template: `src/pages/${fileName}/${fileName}.html`,
       title: 'vue-multipage',
       // 在 dist/index.html 的输出
-      filename: process.env.NODE_ENV === 'development' ? `${fileName}.html` : `${fileName}.html`
+      filename: process.env.NODE_ENV === 'development' ? `${fileName}.html` : `${fileName}.html`,
       // 提取出来的通用 chunk 和 vendor chunk。
-      // chunks: ['chunk-vendors', 'chunk-common', fileName]
+      chunks: ['chunk-vendors', 'chunk-common', fileName]
     }
   })
   return pages
 }
 
-function resolve (dir) {
-  // path.join()方法用于连接路径
-  return path.join(__dirname, dir)
-}
+// function resolve (dir) {
+//   // path.join()方法用于连接路径
+//   return path.join(__dirname, dir)
+// }
 
 module.exports = {
   publicPath: './',
