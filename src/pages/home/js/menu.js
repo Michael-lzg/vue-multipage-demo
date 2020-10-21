@@ -16,17 +16,17 @@ const menu = [
     ]
   },
   {
-    title: '基础组件',
-    key: 'base',
+    title: '地图可视化',
+    key: 'map',
     icon: 'table',
     children: [
       {
-        key: 'other',
-        title: '列表数据'
+        key: 'chinaMap',
+        title: '中国地图'
       },
       {
-        key: 'basicForm',
-        title: '基础表单'
+        key: 'bubble',
+        title: '气泡图'
       },
       {
         key: 'linkage',
